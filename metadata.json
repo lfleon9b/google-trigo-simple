@@ -1,0 +1,6 @@
+{
+  "description": "An application for Chilean growers to get information on weed control in cereals, featuring an AI chat assistant with image recognition, TTS, and location-based search.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
