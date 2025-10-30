@@ -69,6 +69,57 @@
             z-index: 100;
         }
 
+        .header-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .logo {
+            height: 60px;
+            width: auto;
+            max-width: 150px;
+            object-fit: contain;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .header-container {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+
+            .logo {
+                height: 50px;
+                max-width: 120px;
+            }
+
+            header h1 {
+                font-size: 1.2rem;
+            }
+
+            .chat-fab {
+                bottom: 1rem;
+                right: 1rem;
+                width: 48px;
+                height: 48px;
+            }
+
+            .chat-fab .material-symbols-outlined {
+                font-size: 24px;
+            }
+
+            .message {
+                max-width: 90%;
+            }
+        }
+
         main {
             flex-grow: 1;
             overflow-y: auto;

@@ -330,7 +330,10 @@ const App = () => {
     return (
         <>
             <header>
-                <h1>Guía de Herbicidas para Cereales</h1>
+                <div className="header-container">
+                    <img src="/inia-logo.png" alt="INIA Logo" className="logo" />
+                    <h1>Guía de Herbicidas para Cereales</h1>
+                </div>
             </header>
             <main>
                 <div className="tabs">
